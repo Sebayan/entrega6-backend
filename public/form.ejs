@@ -1,0 +1,72 @@
+<%- include('./header.ejs') %>
+
+  <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      INGRESO DE NUEVO PRODUCTO
+    </div>
+  </div>
+
+  <form id= "formulario" class="container" action="/api/productos" method="POST" >
+     <div class="mb-3">
+       <label for="name" class="form-label">Nombre del producto</label>
+       <input type="text" class="form-control" id="name" name="title">
+     </div>
+     <div class="mb-3">
+       <label for="price" class="form-label">Precio</label>
+       <input type="number" class="form-control" id="price" name="price">
+     </div>
+     <div class="mb-3">
+       <label for="picture" class="form-label">Foto del producto</label>
+       <input type="text" class="form-control" id="picture" name="thumbnail" aria-describedby="pictureHelp">
+       <div id="pictureHelp" class="form-text">URL de la foto</div>
+     </div>
+     <button type="submit" class="btn btn-primary">Guardar</button>
+   </form>
+
+   <br>
+   <br id="tablaProd">
+   
+   <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      TABLA DE PRODUCTOS
+    </div>
+  </div>
+  
+  <div id="tabla"></div> 
+ 
+  <br>
+  <br id="tablaChat">
+
+  <div class="container">
+    <div class="alert alert-primary text-center" role="alert">
+      CENTRO DE MENSAJES
+    </div>
+
+    <div id= "" class="row">
+      <label for="userEmail" class="form-label">Usuario</label>
+      <div class="col mb-3">      
+        <input type="email" class="form-control" id="userEmail" aria-describedby="pictureHelp">
+        <div id="pictureHelp" class="form-text">Ingrese su email</div>
+      </div>
+
+      <hr>
+      <div id="chat"></div>
+      <hr>
+
+      <div class="col mb-3">      
+        <input type="text" class="form-control" id="userMsj" aria-describedby="pHelp">
+        <div id="pHelp" class="form-text">Escriba su mensaje</div>
+      </div>
+      <div class="col">
+        <button id="sendBtn" type="" class="btn btn-primary">Enviar mensaje</button> 
+      </div>
+    </>
+
+    <hr>
+
+    
+
+  </div>
+
+</body>
+</html>

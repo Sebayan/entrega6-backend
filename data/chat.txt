@@ -1,0 +1,44 @@
+[
+  {
+    "id": "8e515cfd-ad1e-488c-a0ce-68a8f488742c",
+    "user": "yar@gmail.com",
+    "mensaje": "Hola",
+    "date": "23/12/2022 19:45:26"
+  },
+  {
+    "id": "e779ed08-9d3b-4c60-b104-ad87d647a361",
+    "user": "sims@gmail.com",
+    "mensaje": "que haces?",
+    "date": "23/12/2022 19:46:28"
+  },
+  {
+    "id": "9e0babe8-2bb5-4012-bf32-bb216a69790a",
+    "user": "yar@gmail.com",
+    "mensaje": "gracias",
+    "date": "23/12/2022 19:46:58"
+  },
+  {
+    "id": "d5c4c85d-06fb-4265-8a2c-29a40c7497e3",
+    "user": "yar@gmail.com",
+    "mensaje": "gracias",
+    "date": "23/12/2022 19:48:36"
+  },
+  {
+    "id": "e91b0cb3-daef-4242-9615-8cedea704506",
+    "user": "lolo@gmail.com",
+    "mensaje": "hola gente",
+    "date": "23/12/2022 19:56:26"
+  },
+  {
+    "id": "6d2541f7-d4a9-4229-98e0-abd897ca8d85",
+    "user": "yar@gmail.com",
+    "mensaje": "todo bien?",
+    "date": "23/12/2022 19:56:54"
+  },
+  {
+    "id": "62588b7d-dd31-4801-9dca-6ec63c08570b",
+    "user": "lola@gmail.com",
+    "mensaje": "adios",
+    "date": "23/12/2022 20:01:20"
+  }
+]
